@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Misinformation Detection</title>
+   <style>
+     html, body {
+    min-height: 100%;
+}
+
+body, div, form, input, textarea, p {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    color: #333; 
+    line-height: 1.6;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+h1 {
+    margin: 20px 0; 
+    font-size: 36px; 
+    font-weight: bold; 
+    color: #cc0052;
+    text-align: center; 
+}
+
+.testbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    padding: 20px;
+}
+
+form {
+    width: 100%;
+    max-width: 500px; 
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #f9f9f9; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); 
+}
+
+input, textarea {
+    margin-bottom: 20px; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.item input:hover, .item textarea:hover {
+    border-color: #cc0052; 
+}
+
+.btn-block {
+    margin-top: 20px; 
+    text-align: center;
+}
+
+button {
+    padding: 12px 20px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #cc0052;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #ff0066;
+}
+
+    </style>
+  </head>
+  <body>
+        {% block start %}
+        {% endblock %}
+ </body>
+</html>
